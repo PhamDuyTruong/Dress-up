@@ -1,0 +1,58 @@
+.body{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url("../../assets/img/body1_pose0.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    z-index: 1;
+}
+.tops{
+    top: 19%;
+    left: -5%;
+    position: absolute;
+    width: 220px;
+    z-index: 3;
+}
+.pants{
+    top: 48%;
+    left: -3%;
+    position: absolute;
+    width: 210px;
+    z-index: 2;
+}
+
+.shoe{
+    top: 87%;
+    left: -34%;
+    position: absolute;
+    width: 335px;
+    z-index: 6;
+}
+
+.outer{
+    top: 19%;
+    left: -5%;
+    position: absolute;
+    width: 220px;
+    z-index: 4;
+}
+
+.hat{
+    position: absolute;
+    width: 125px;
+    z-index: 2;
+    top: -8%;
+    left: 19%;
+}
+.glass{
+    position: absolute;
+    width: 136px;
+    z-index: 2;
+    top: 9.5%;
+    left: 17%;
+}

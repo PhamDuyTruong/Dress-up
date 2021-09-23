@@ -1,0 +1,29 @@
+.buttonChoose {
+    display: inline-block;
+}
+
+.buttonChoose .buttonChoose__link {
+    border: 2px solid var(--color-white);
+    border-radius: 20px;
+    line-height: none;
+    padding: 10px 30px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 10px 10px 0;
+    color: var(--color-white);
+    transition: .2s all;
+}
+
+.buttonChoose .buttonChoose__link:hover {
+    color: var(--color-black);
+    border: 2px solid var(--color-white);
+    background-color: var(--color-white);
+    font-weight: 700;
+}
+
+.buttonChoose .buttonChoose__link.active{
+    background-color: var(--color-white);
+    color: var(--color-black);
+    border: 1px solid var(--color-white);
+}
